@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Layout</title>
+    <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #e3f2fd;
+    padding: 10px 20px;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-top: 2px solid #333;
+}</style>
+</head>
+<body>
+    <header>
+        <h1>Site Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h2>Page heading</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <p>Lorem Ipsum has been the industry's jjlstandard dummy text ever since the 1500s...</p>
+            <p>Lorem Ipsum passages, and more recently with desktop publishing software...</p>
+        </section>
+
+        <aside>
+            <h3>Aside heading</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+        </aside>
+    </main>
+</body>
+</html>
